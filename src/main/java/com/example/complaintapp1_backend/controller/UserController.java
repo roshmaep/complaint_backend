@@ -52,4 +52,5 @@ public class UserController {
     public List<UserModel> GetUserById(@RequestBody UserModel f){
         return (List<UserModel>) dao.FindUser(f.getId());
     }
+
 }
